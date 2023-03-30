@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: white;
+background-color: black;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+text-align: center;
+padding: 30px 0 30px 0;
+font-size: 4rem;
+}
+
+input{
+  width: 200px;
+  height: 25px;
+  margin: 30px;
+}
+
+button{
+  padding: 5px 15px;
+  background-color: white ;
+}
+
+#access{
+  padding: 20px;
+  font-size: 1.3rem;
+}
